@@ -1,8 +1,8 @@
 <?php
-require 'Client.php';
-require 'Hotel.php';
-require 'Reservation.php';
-require 'Chambre.php';
+require 'class/Client.php';
+require 'class/Hotel.php';
+require 'class/Reservation.php';
+require 'class/Chambre.php';
 
 $hotel1 = new Hotel("Hilton", "10 route de la Gare", 67000, "Strasbourg", 30);
 $hotel2 = new Hotel("Regent",  "61 Rue Dauphine", 75006, "Paris", 10);
